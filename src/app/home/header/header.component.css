@@ -1,0 +1,83 @@
+.headerContainer{
+    background-color: white;
+    height: auto;
+    .primary-header{
+        display: flex;
+        height: 64px;
+        background-color: #EAB200;
+        .logos{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 19px;
+            color: white;
+        }
+        .login{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 19px;
+            color: white;
+        }
+    }
+    .nav-header{
+        height: 115px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #21215D;
+        .logo{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            img{
+                width: 100px;
+                height: 100px;
+                
+            }
+        }
+        .nav-menu-list{
+            display: flex;
+            width: 50%;
+            gap: 25px;
+            font-size: 16px;
+            color: #666666;
+            text-transform: uppercase;
+            .about{
+                transform: 0.5s;
+                padding-bottom: 5px;
+                border-bottom: 5px solid transparent;
+            }.about:hover{
+                border-bottom: 5px solid #EAB200;
+            }
+            .products-and-services{
+                transform: 0.5s;
+                padding-bottom: 5px;
+                border-bottom: 5px solid transparent;
+            }.products-and-services:hover{
+                border-bottom: 5px solid #EAB200;
+            }
+            .news{
+                transform: 0.5s;
+                padding-bottom: 5px;
+                border-bottom: 5px solid transparent;
+            }.news:hover{
+                border-bottom: 5px solid #EAB200;
+            }
+            .contact{
+                transform: 0.5s;
+                padding-bottom: 5px;
+                border-bottom: 5px solid transparent;
+            }.contact:hover{
+                border-bottom: 5px solid #EAB200;
+            }
+            .search{
+                transform: 0.5s;
+                
+            }
+        }
+    }
+}
