@@ -1,5 +1,9 @@
 .componentContainer{
-    background-color: rgb(206, 168, 122);
+    /* background-color: rgb(206, 168, 122); */
     height: 100vh;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    overflow: scroll;
 }

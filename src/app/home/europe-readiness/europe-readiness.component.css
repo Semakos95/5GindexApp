@@ -1,0 +1,162 @@
+.info-container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 115px;
+    border-bottom: 2px solid #21215D;
+    display: flex;
+    .title-container{
+        font-size: 23px;
+        color: #aaa;
+        width: 44%;
+        justify-content: end;
+        display: flex;
+        align-items: center;
+        .title{
+            width: 50%;
+            font-weight: 400;
+            border-bottom: 1px solid #eab200;
+            padding-bottom: 4px;
+        }
+    }
+    .nav-path{
+        width: 56%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #aaa;
+        font-size: 13px;
+    }
+}
+.categoriesHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    .categories-container{
+        height: 57px;
+        width: 58%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        .item{
+            padding: 7px 33px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 4px 18px -4px;
+            border-radius: 5px;
+            padding: 7px 30px;
+        }
+        .category{
+            width: 30%;
+            justify-content: start;
+            padding-left: 10px;
+            display: flex;
+            height: 100%;
+            align-items: center;
+            border-left: 2px solid white;
+            border-right: 2px solid white;
+        }
+        .report{
+            width: 15%;
+            justify-content: center;
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+        .methodology{
+            height: 100%;
+            align-items: center;
+            width: 15%;
+            justify-content: center;
+            display: flex;
+        }
+        .data{
+            height: 100%;
+            align-items: center;
+            width: 15%;
+            justify-content: center;
+            display: flex;
+        }
+        .equal-weights{
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 15%;
+        }
+    }
+}
+.list-and-map-container{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    .list-map{
+        width: 58%;
+        display: flex;
+        .list-holder{
+            width: 30%;
+            height: 100%;
+            padding-top: 10px;
+            .title{
+                padding: 1em;
+                background-color: #eab200;
+                color: #fff;
+                font-size: 12pt;
+            }
+            .countries{
+                .country{
+                    padding: 18px;
+                    margin: 0.2em 0;
+                    background: #f8f8f8;
+                    color: #7f7f7f;
+                    transition: 0.5s;
+                }
+                .country:hover{
+                    background-color:#eab200
+                }
+                .viewAllCountries{
+
+                }
+            }
+        }
+        .map-holder{
+            /* background-color: yellow; */
+            width: 70%;
+            height: 100%;
+            .map{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .score-container{
+                width: 730px;
+                height: 72px;
+                position: relative;
+                bottom: 236px;
+                display: flex;
+                justify-content: center;
+                .map-indicator{
+                    place-items: center;
+                    font-size: 14px;
+                    color: #333333;
+                    font-weight: 300;
+                    .color{
+                        padding: 8px 50px;
+                    }
+                    .text{
+                        padding: 10px 0px;
+                        text-align: center;
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

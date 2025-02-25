@@ -1,0 +1,86 @@
+<div class="info-container">
+    <div class="title-container">
+        <div class="title">
+            Europe 5G Readiness Index
+        </div>
+    </div>
+    <div class="nav-path">
+        Home / Europe 5G Readiness Index
+    </div>
+</div>
+<div class="categoriesHolder">
+    <div class="categories-container">
+        <div class="category dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="report">
+            <div class="item">
+                Report
+            </div>
+        </div>
+        <div class="methodology">
+            <div class="item">
+                Methodology
+            </div>
+        </div>
+        <div class="data">
+            <div class="item">
+                Data
+            </div>
+        </div>
+        <div class="equal-weights">
+            <div class="item">
+                Equal Weights
+            </div>
+        </div>
+    </div>
+</div>
+<div class="list-and-map-container">
+    <div class="list-map">
+        <div class="list-holder">
+            <div class="title">Top-10 countries</div>
+            <div class="countries">
+                <div class="country" *ngFor="let country of countries;let i = index">
+                    {{i+1+' '+country}}
+                </div>
+                <div class="viewAllCountries"></div>
+            </div>
+        </div>
+        <div class="map-holder">
+            <div class="map">
+                <img src="assets/europe_map.svg" alt="" >
+            </div>
+            <div class="score-container">
+                <div class="map-indicator">
+                    <div class="color" style="background: #d4cdff;"></div>
+                    <div class="text">0-20% <br>Very Low</div>
+                </div>
+                <div class="map-indicator">
+                    <div class="color" style="background: #aaa4ea;"></div>
+                    <div class="text">21-40% <br>Low</div>
+                </div>
+                <div class="map-indicator">
+                    <div class="color" style="background: #817dc0;"></div>
+                    <div class="text">41-59% <br>Medium</div>
+                </div>
+                <div class="map-indicator">
+                    <div class="color" style="background: #5a5898;"></div>
+                    <div class="text">60-80% <br>High</div>
+                </div>
+                <div class="map-indicator">
+                    <div class="color" style="background: #21215d;"></div>
+                    <div class="text">81-100% <br>Very High</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

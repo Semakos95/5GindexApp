@@ -1,12 +1,15 @@
 .headerContainer{
     background-color: white;
     height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     .primary-header{
         display: flex;
         height: 64px;
         background-color: #EAB200;
         .logos{
-            width: 50%;
+            width: 46%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,7 +18,7 @@
             color: white;
         }
         .login{
-            width: 50%;
+            width: 54%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,6 +27,9 @@
         }
     }
     .nav-header{
+        position: sticky;
+        top: 0;
+        z-index: 9999;
         height: 115px;
         width: 100%;
         display: flex;
@@ -34,9 +40,9 @@
             justify-content: center;
             width: 50%;
             img{
-                width: 100px;
+                width: 140px;
                 height: 100px;
-                
+                padding-right: 58px;
             }
         }
         .nav-menu-list{
@@ -47,35 +53,35 @@
             color: #666666;
             text-transform: uppercase;
             .about{
-                transform: 0.5s;
+                transition: 0.5s;
                 padding-bottom: 5px;
                 border-bottom: 5px solid transparent;
             }.about:hover{
                 border-bottom: 5px solid #EAB200;
             }
             .products-and-services{
-                transform: 0.5s;
+                transition: 0.5s;
                 padding-bottom: 5px;
                 border-bottom: 5px solid transparent;
             }.products-and-services:hover{
                 border-bottom: 5px solid #EAB200;
             }
             .news{
-                transform: 0.5s;
+                transition: 0.5s;
                 padding-bottom: 5px;
                 border-bottom: 5px solid transparent;
             }.news:hover{
                 border-bottom: 5px solid #EAB200;
             }
             .contact{
-                transform: 0.5s;
+                transition: 0.5s;
                 padding-bottom: 5px;
                 border-bottom: 5px solid transparent;
             }.contact:hover{
                 border-bottom: 5px solid #EAB200;
             }
             .search{
-                transform: 0.5s;
+                transition: 0.5s;
                 
             }
         }
