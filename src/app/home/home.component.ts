@@ -10,8 +10,10 @@ import { EuropeReadinessComponent } from './europe-readiness/europe-readiness.co
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  
   @ViewChild('container') container!:ElementRef;
   scrolledDown: boolean = false;
+
   ngAfterViewInit(){
     console.log(this.container)
     
