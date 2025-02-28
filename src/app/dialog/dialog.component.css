@@ -1,0 +1,153 @@
+.modal-container{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    .modal-header-container{
+        display: flex;
+        width: 100%;
+        height: 130px;
+        justify-content: center;
+        .modal-header{
+            display: flex;
+            width: 95%;
+            gap: 10px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            .title{
+                align-items: center;
+                display: flex;
+                width: 30%;
+                .flag{
+                    img{
+                        width: 56px;
+                        height: 42px;
+                    }
+                }
+                .country{
+                    font-weight: 600;
+                    font-size: 40px;
+                }
+            }
+            .index-score{
+                background: linear-gradient(to bottom, white, #f2f2f2);
+                width: 16.6%;
+                height: 104px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .value{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                .title{
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+            .global-rank{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(to bottom, white, #f2f2f2);
+                width: 16.6%;
+                height: 104px;
+                .value{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                .title{
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+            .regular-rank{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(to bottom, white, #f2f2f2);
+                width: 16.6%;    
+                height: 104px;
+                .value{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                .title{
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+            .rank-change{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(to bottom, white, #f2f2f2);
+                width: 16.6%;
+                height: 104px;
+                .value{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                .title{
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+        }
+
+    }
+    
+    .modal-body-container{
+        width: 100%;
+        height: 80%;
+        padding: 35px 5px;
+        display: flex;
+        gap: 5px;
+        .box{
+            height: 100%;
+            width: 33.33%;
+            background-color: #e7e6e6;
+            .title-container{
+                /* background-color: red; */
+                width: 100%;
+                height: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .title-holder{
+                    width: 95%;
+                    height: 88%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    .title{
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                    .sub-title{
+                        font-size: 14px;
+                    }
+                    .dropdown{
+                        .mat-mdc-form-field{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .svg-container{
+                height: 75%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                img{
+                    max-width: 81%;
+                }
+                /* background-color: blue; */
+            }
+        }
+    }
+}

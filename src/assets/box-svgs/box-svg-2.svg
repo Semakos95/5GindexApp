@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="sunburstChart" width="519" height="519" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(252,259.5) scale(0.75)">
+    <g>
+      <path fill="#2f4858" fill-opacity="1" d="M1.0531962472667237e-14,-172A172,172,0,0,1,171.98356548974138,2.3776461965215927L86.49173497013157,1.195734860459987A86.5,86.5,0,0,0,5.296597406312302e-15,-86.5Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Infrastructure and Technology</title>
+      </path>
+      <path fill="#006573" fill-opacity="1" d="M171.98356548974138,2.3776461965215927A172,172,0,0,1,58.007027546903934,161.92339162447385L29.17213885353018,81.432403346029A86.5,86.5,0,0,0,86.49173497013157,1.195734860459987Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Regulation and Policy</title>
+      </path>
+      <path fill="#008274" fill-opacity="1" d="M58.007027546903934,161.92339162447385A172,172,0,0,1,-120.86678432979296,122.37328321890898L-60.78474909608774,61.54237789788156A86.5,86.5,0,0,0,29.17213885353018,81.432403346029Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Innovation Landscape</title>
+      </path>
+      <path fill="#309c59" fill-opacity="1" d="M-120.86678432979296,122.37328321890898A172,172,0,0,1,-169.97376913881618,26.323331946097085L-85.48099436341629,13.238187286845335A86.5,86.5,0,0,0,-60.78474909608774,61.54237789788156Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Human Capital</title>
+      </path>
+      <path fill="#8bae2c" fill-opacity="1" d="M-169.97376913881618,26.323331946097085A172,172,0,0,1,-134.29224814908898,-107.46902850153393L-67.53650851683834,-54.04692421734119A86.5,86.5,0,0,0,-85.48099436341629,13.238187286845335Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Country Profile</title>
+      </path>
+      <path fill="#eab200" fill-opacity="1" d="M-134.29224814908898,-107.46902850153393A172,172,0,0,1,-3.159588741800171e-14,-172L-1.5889792218936908e-14,-86.5A86.5,86.5,0,0,0,-67.53650851683834,-54.04692421734119Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px; cursor: pointer;">
+        <title>Demand</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M1.582855987897954e-14,-258.5A258.5,258.5,0,0,1,49.239534522230436,-253.76705507223366L32.953344187024626,-169.8324972050152A173,173,0,0,0,1.0593194812624605e-14,-173Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>4G coverage</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M49.239534522230436,-253.76705507223366A258.5,258.5,0,0,1,54.60388498365168,-252.6671045955372L36.54341238751157,-169.0963601355046A173,173,0,0,0,32.953344187024626,-169.8324972050152Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Fiber coverage</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M54.60388498365168,-252.6671045955372A258.5,258.5,0,0,1,89.17072723153909,-242.6331209975226L59.67712112594299,-162.3811602807405A173,173,0,0,0,36.54341238751157,-169.0963601355046Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Internet BW per user</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M89.17072723153909,-242.6331209975226A258.5,258.5,0,0,1,146.2615575155546,-213.14269115577036L97.88491083246014,-142.64481845241113A173,173,0,0,0,59.67712112594299,-162.3811602807405Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>5G commercial networks</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M146.2615575155546,-213.14269115577036A258.5,258.5,0,0,1,185.95979773084446,-179.5583571653055L124.45278532857289,-120.16864908935338A173,173,0,0,0,97.88491083246014,-142.64481845241113Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title># of IXPs</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M185.95979773084446,-179.5583571653055A258.5,258.5,0,0,1,212.20555242591985,-147.61793088785038L142.0176424359154,-98.7926578088902A173,173,0,0,0,124.45278532857289,-120.16864908935338Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title># &amp; maturity of 5G pilots</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M212.20555242591985,-147.61793088785038A258.5,258.5,0,0,1,239.9987573163916,-96.03565216411963L160.6181238519758,-64.27144226070675A173,173,0,0,0,142.0176424359154,-98.7926578088902Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Time to get electricity</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M239.9987573163916,-96.03565216411963A258.5,258.5,0,0,1,255.43800760304848,-39.66956354417011L170.95077491422586,-26.548682758767615A173,173,0,0,0,160.6181238519758,-64.27144226070675Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>4G launch year</title>
+      </path>
+      <path fill="#2f4858" fill-opacity="0.6" d="M255.43800760304848,-39.66956354417011A258.5,258.5,0,0,1,258.48114051991394,3.12249828254733L172.98737837502944,2.089718386385641A173,173,0,0,0,170.95077491422586,-26.548682758767615Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>5G spectrum auction plans</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M258.475300459873,3.57338105698158A258.5,258.5,0,0,1,253.80525313663003,49.042262185294284L169.8580610933733,32.82132053406542A173,173,0,0,0,172.98346994026315,2.391469720919974Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Govt ensuring policy stability</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M253.80525313663003,49.042262185294284A258.5,258.5,0,0,1,242.06137242291564,90.7113112061254L161.99852003545226,60.708150246265745A173,173,0,0,0,169.8580610933733,32.82132053406542Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Legal fwk's adaptability to digital BMs</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M242.06137242291564,90.7113112061254A258.5,258.5,0,0,1,224.5999317729669,127.97312470819263L150.31252687320415,85.6454567679587A173,173,0,0,0,161.99852003545226,60.708150246265745Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Efficiency in settling disputes</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M224.5999317729669,127.97312470819263A258.5,258.5,0,0,1,201.60389382312667,161.7965388855814L134.92252855474243,108.28162950563089A173,173,0,0,0,150.31252687320415,85.6454567679587Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Efficiency in challenging regulations</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M201.60389382312667,161.7965388855814A258.5,258.5,0,0,1,176.7146983017972,188.6641603593666L118.26554277064184,126.26266824824148A173,173,0,0,0,134.92252855474243,108.28162950563089Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Burden of govt regulation</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M176.7146983017972,188.6641603593666A258.5,258.5,0,0,1,135.8470330276344,219.92688243502386L90.91503564325242,147.1851089410411A173,173,0,0,0,118.26554277064184,126.26266824824148Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Public sector corruption</title>
+      </path>
+      <path fill="#006573" fill-opacity="0.6" d="M135.8470330276344,219.92688243502386A258.5,258.5,0,0,1,87.597212396577,243.20562982864723L58.62405317062987,162.76430932439447A173,173,0,0,0,90.91503564325242,147.1851089410411Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title># of days to start a business</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M87.17916640043411,243.35579497050284A258.5,258.5,0,0,1,47.85643121024655,254.03151771348954L32.02770831478783,170.00948767672608A173,173,0,0,0,58.34427770706036,162.864806692058Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Companies with disruptive ideas</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M47.85643121024655,254.03151771348954A258.5,258.5,0,0,1,4.16898249648547,258.46637998963035L2.7900733922320553,172.97749995437545A173,173,0,0,0,32.02770831478783,170.00948767672608Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Growth of innovative companies</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M4.16898249648547,258.46637998963035A258.5,258.5,0,0,1,-26.17874311157989,257.1710003268213L-17.52000989672465,172.11057275257286A173,173,0,0,0,2.7900733922320553,172.97749995437545Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Researchers in R&amp;D</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M-26.17874311157989,257.1710003268213A258.5,258.5,0,0,1,-66.37154206795246,249.8340817493122L-44.41886567797205,167.2003719250716A173,173,0,0,0,-17.52000989672465,172.11057275257286Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>R&amp;D expenditure (% of GDP)</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M-66.37154206795246,249.8340817493122A258.5,258.5,0,0,1,-109.161363237201,234.3203934278787L-73.05576727286565,156.81790353200392A173,173,0,0,0,-44.41886567797205,167.2003719250716Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>University-industry collaboration</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M-109.161363237201,234.3203934278787A258.5,258.5,0,0,1,-150.10547093294448,210.45331452842208L-100.45743315821817,140.8449648488086A173,173,0,0,0,-73.05576727286565,156.81790353200392Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>FDI &amp; technology transfer</title>
+      </path>
+      <path fill="#008274" fill-opacity="0.6" d="M-150.10547093294448,210.45331452842208A258.5,258.5,0,0,1,-181.35874927903706,184.20438121810074L-121.37355367610604,123.27798046704613A173,173,0,0,0,-100.45743315821817,140.8449648488086Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>VC availability</title>
+      </path>
+      <path fill="#309c59" fill-opacity="0.6" d="M-181.6515334258807,183.91566111679055A258.5,258.5,0,0,1,-203.09794699843542,159.91708453139307L-135.92241714015213,107.02381285853386A173,173,0,0,0,-121.56949819217547,123.08475579576312Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Tertiary (%)</title>
+      </path>
+      <path fill="#309c59" fill-opacity="0.6" d="M-203.09794699843542,159.91708453139307A258.5,258.5,0,0,1,-228.02766959805544,121.7605514839682L-152.60652549502356,81.48771917495745A173,173,0,0,0,-135.92241714015213,107.02381285853386Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Skillset of univrsity graduates</title>
+      </path>
+      <path fill="#309c59" fill-opacity="0.6" d="M-228.02766959805544,121.7605514839682A258.5,258.5,0,0,1,-244.7341695910392,83.23122151323058L-163.78727790812295,55.70213277287772A173,173,0,0,0,-152.60652549502356,81.48771917495745Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Extent of staff training</title>
+      </path>
+      <path fill="#309c59" fill-opacity="0.6" d="M-244.7341695910392,83.23122151323058A258.5,258.5,0,0,1,-255.3905461265008,39.97397840105067L-170.91901152760016,26.752411076912058A173,173,0,0,0,-163.78727790812295,55.70213277287772Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Availability of scientists &amp; engineers</title>
+      </path>
+      <path fill="#8bae2c" fill-opacity="0.6" d="M-255.45476350223248,39.561519232942416A258.5,258.5,0,0,1,-257.7063560626806,-20.24065327243413L-172.46885724891195,-13.545969114627098A173,173,0,0,0,-170.96198872683257,26.47637457369067Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>e-Gov services</title>
+      </path>
+      <path fill="#8bae2c" fill-opacity="0.6" d="M-257.7063560626806,-20.24065327243413A258.5,258.5,0,0,1,-249.77897071070814,-66.57864365319556L-167.1634891023308,-44.557467512583486A173,173,0,0,0,-172.46885724891195,-13.545969114627098Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Competition in network services</title>
+      </path>
+      <path fill="#8bae2c" fill-opacity="0.6" d="M-249.77897071070814,-66.57864365319556A258.5,258.5,0,0,1,-229.57121278975572,-118.82469548978739L-153.63953505852123,-79.52291032778808A173,173,0,0,0,-167.1634891023308,-44.557467512583486Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>GDP per capita</title>
+      </path>
+      <path fill="#8bae2c" fill-opacity="0.6" d="M-229.57121278975572,-118.82469548978739A258.5,258.5,0,0,1,-202.15979980655223,-161.10141322215247L-135.29456621482993,-107.81641968058946A173,173,0,0,0,-153.63953505852123,-79.52291032778808Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>ICTs &amp; business model creation</title>
+      </path>
+      <path fill="#eab200" fill-opacity="0.6" d="M-201.8287566659273,-161.51595271887513A258.5,258.5,0,0,1,-160.97924274951694,-202.25709728904965L-107.73465762346783,-135.35968213154968A173,173,0,0,0,-135.07301703367668,-108.09384843468239Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>4G penetration</title>
+      </path>
+      <path fill="#eab200" fill-opacity="0.6" d="M-160.97924274951694,-202.25709728904965A258.5,258.5,0,0,1,-112.11109407680654,-232.92349083959186L-75.02986179995176,-155.88303255415627A173,173,0,0,0,-107.73465762346783,-135.35968213154968Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>NGA penetration</title>
+      </path>
+      <path fill="#eab200" fill-opacity="0.6" d="M-112.11109407680654,-232.92349083959186A258.5,258.5,0,0,1,-57.65851165862304,-251.9875910304165L-38.58770799590633,-168.6415986393116A173,173,0,0,0,-75.02986179995176,-155.88303255415627Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Mobile data traffic per user per month</title>
+      </path>
+      <path fill="#eab200" fill-opacity="0.6" d="M-57.65851165862304,-251.9875910304165A258.5,258.5,0,0,1,-0.3338661241918825,-258.49978439722366L-0.22343845061971246,-172.99985570878025A173,173,0,0,0,-38.58770799590633,-168.6415986393116Z" style="stroke: rgb(231, 230, 230); stroke-width: 1px;">
+        <title>Internet users (% of population)</title>
+      </path>
+    </g>
+    <g pointer-events="none" text-anchor="middle" style="user-select: none;">
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-44.60397258350362) translate(129.75,0) rotate(0)" style="fill: black;">Infr &amp; Tech</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(35.541313792109975) translate(129.75,0) rotate(0)" style="fill: black;">Regulation &amp; Policy</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(102.46785893650596) translate(129.75,0) rotate(180)" style="fill: black;">Innovation</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(152.92092622241057) translate(129.75,0) rotate(180)" style="fill: black;">Human Capital</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(194.93283978442054) translate(129.75,0) rotate(180)" style="fill: black;">Country Profile</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(244.33448612290232) translate(129.75,0) rotate(180)" style="fill: black;">Demand</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-84.50954980477752) translate(216.25,0) rotate(0)" style="fill: black;">1.1</text>
+      <text dy="0.35em" fill-opacity="0" transform="rotate(-78.41222279994007) translate(216.25,0) rotate(0)" style="fill: black;">1.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-73.81316514445663) translate(216.25,0) rotate(0)" style="fill: black;">1.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-62.68125712664734) translate(216.25,0) rotate(0)" style="fill: black;">1.4</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-49.769096277097965) translate(216.25,0) rotate(0)" style="fill: black;">1.5</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-39.41027356858341) translate(216.25,0) rotate(0)" style="fill: black;">1.6</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-28.316366663392387) translate(216.25,0) rotate(0)" style="fill: black;">1.7</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-15.318187723706615) translate(216.25,0) rotate(0)" style="fill: black;">1.8</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(-4.067708543678677) translate(216.25,0) rotate(0)" style="fill: black;">1.9</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(5.864209116040115) translate(216.25,0) rotate(0)" style="fill: black;">2.1</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(15.739801506708147) translate(216.25,0) rotate(0)" style="fill: black;">2.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(25.108487879620043) translate(216.25,0) rotate(0)" style="fill: black;">2.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(34.21120322723573) translate(216.25,0) rotate(0)" style="fill: black;">2.4</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(42.81091069581697) translate(216.25,0) rotate(0)" style="fill: black;">2.5</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(52.58493281962643) translate(216.25,0) rotate(0)" style="fill: black;">2.6</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(64.24441602515839) translate(216.25,0) rotate(0)" style="fill: black;">2.7</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(74.81089370140123) translate(216.25,0) rotate(0)" style="fill: black;">3.1</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(84.20356582115363) translate(216.25,0) rotate(0)" style="fill: black;">3.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(92.44416211750396) translate(216.25,0) rotate(180)" style="fill: black;">3.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(100.34504760569888) translate(216.25,0) rotate(180)" style="fill: black;">3.4</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(109.92839511543153) translate(216.25,0) rotate(180)" style="fill: black;">3.5</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(120.23870128040423) translate(216.25,0) rotate(180)" style="fill: black;">3.6</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(130.02615254085046) translate(216.25,0) rotate(180)" style="fill: black;">3.7</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(138.21431978399733) translate(216.25,0) rotate(180)" style="fill: black;">4.1</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(146.84124718081898) translate(216.25,0) rotate(180)" style="fill: black;">4.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(156.558216568246) translate(216.25,0) rotate(180)" style="fill: black;">4.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(166.160809370808) translate(216.25,0) rotate(180)" style="fill: black;">4.4</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(177.84379332011338) translate(216.25,0) rotate(180)" style="fill: black;">5.1</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(189.7080341147004) translate(216.25,0) rotate(180)" style="fill: black;">5.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(201.14550214566412) translate(216.25,0) rotate(180)" style="fill: black;">5.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(212.9586016638048) translate(216.25,0) rotate(180)" style="fill: black;">5.4</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(225.07610065455833) translate(216.25,0) rotate(180)" style="fill: black;">6.1</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(237.89035747206577) translate(216.25,0) rotate(180)" style="fill: black;">6.2</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(250.70461428957321) translate(216.25,0) rotate(180)" style="fill: black;">6.3</text>
+      <text dy="0.35em" fill-opacity="1" transform="rotate(263.5188711070806) translate(216.25,0) rotate(180)" style="fill: black;">6.4</text>
+    </g>
+    <circle r="86.5" fill="none" pointer-events="all"></circle>
+  </g>
+</svg>

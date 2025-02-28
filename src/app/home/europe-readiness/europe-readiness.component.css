@@ -7,7 +7,7 @@
     .title-container{
         font-size: 23px;
         color: #aaa;
-        width: 44%;
+        width: 42%;
         justify-content: end;
         display: flex;
         align-items: center;
@@ -47,6 +47,10 @@
             box-shadow: 2px 4px 18px -4px;
             border-radius: 5px;
             padding: 7px 30px;
+            background-color:white;
+            transition: 0.5s;
+        }.item:hover{
+            background-color: #f2f2f2;
         }
         .category{
             width: 30%;
@@ -57,6 +61,14 @@
             align-items: center;
             border-left: 2px solid white;
             border-right: 2px solid white;
+            button{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            ul{
+                width: 100%;
+            }
         }
         .report{
             width: 15%;
@@ -91,7 +103,7 @@
 .list-and-map-container{
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 83%;
     justify-content: center;
     .list-map{
         width: 58%;
@@ -107,18 +119,59 @@
                 font-size: 12pt;
             }
             .countries{
+
                 .country{
-                    padding: 18px;
-                    margin: 0.2em 0;
+                    transition: 0.5s;
                     background: #f8f8f8;
                     color: #7f7f7f;
-                    transition: 0.5s;
+                    display: flex;
+                    margin: 0.2em 0;
+                    gap: 40px;
+                    height: 62px;
+                    .country-name{
+                        width: 45%;
+                        padding-left: 15px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .country-stats-container{
+                        display: flex;
+                        align-items: center;
+                        gap: 7px;
+                        width: 55%;
+                        .stats{
+                            font-weight: bold;
+                            color: #000;
+                        }
+                        .loading-container{
+                            /* background-color: #21215D; */
+                            background-color: white;
+                            border-radius: 5px;
+                            width: 53%;
+                            overflow: hidden;
+                            height: 30%;
+                            .loading-fill{
+                                width: 70%;
+                                height: 100%;
+                                background-color: #5a5898;
+                            }
+                        }
+
+                    }
                 }
                 .country:hover{
-                    background-color:#eab200
+                    background-color:#eab200;
                 }
                 .viewAllCountries{
-
+                    background-color: #eab200;
+                    width: 40%;
+                    height: 27px;
+                    text-align: center;
+                    align-content: center;
+                    color: white;
+                    font-size: 13px;
+                    border-radius: 0px 0px 10px 10px;
+                    border: 0px;
                 }
             }
         }
@@ -138,7 +191,7 @@
                 width: 730px;
                 height: 72px;
                 position: relative;
-                bottom: 236px;
+                bottom: 250px;
                 display: flex;
                 justify-content: center;
                 .map-indicator{

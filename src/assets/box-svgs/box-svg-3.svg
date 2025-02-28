@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="603" height="422" class="radar radarChart" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(301.5,211) scale(0.9)">
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
+        <feMerge>
+          <feMergeNode in="coloredBlur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </defs>
+    <g class="axisWrapper">
+      <circle class="gridCircle" r="171" style="fill: transparent; stroke: rgb(255, 255, 255); fill-opacity: 0.1;" />
+      <circle class="gridCircle" r="136.8" style="fill: transparent; stroke: rgb(255, 255, 255); fill-opacity: 0.1;" />
+      <circle class="gridCircle" r="102.6" style="fill: transparent; stroke: rgb(255, 255, 255); fill-opacity: 0.1;" />
+      <circle class="gridCircle" r="68.4" style="fill: transparent; stroke: rgb(255, 255, 255); fill-opacity: 0.1;" />
+      <circle class="gridCircle" r="34.2" style="fill: transparent; stroke: rgb(255, 255, 255); fill-opacity: 0.1;" />
+      <text class="axisLabel" x="4" y="-171" dy="0.1em" fill="#737373" style="font-size: 10px;">85%</text>
+      <text class="axisLabel" x="4" y="-136.8" dy="0.1em" fill="#737373" style="font-size: 10px;">68%</text>
+      <text class="axisLabel" x="4" y="-102.6" dy="0.1em" fill="#737373" style="font-size: 10px;">51%</text>
+      <text class="axisLabel" x="4" y="-68.4" dy="0.1em" fill="#737373" style="font-size: 10px;">34%</text>
+      <text class="axisLabel" x="4" y="-34.2" dy="0.1em" fill="#737373" style="font-size: 10px;">17%</text>
+      <g class="axis">
+        <line x1="0" y1="0" x2="0" y2="-188.1" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="0" y="-205.2" style="font-size: 11px;">
+          <tspan x="0" y="-205.2" dy="0em">Infrastracture and Technology</tspan>
+        </text>
+      </g>
+      <g class="axis">
+        <line x1="0" y1="0" x2="162.89937845185293" y2="-94.05" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="177.70841285656678" y="-102.6" style="font-size: 11px;">
+          <tspan x="177.70841285656678" y="-102.6" dy="0em">Regulation Policy</tspan>
+        </text>
+      </g>
+      <g class="axis">
+        <line x1="0" y1="0" x2="162.89937845185295" y2="94.05" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="177.7084128565668" y="102.6" style="font-size: 11px;">
+          <tspan x="177.7084128565668" y="102.6" dy="0em">Innovation Landscape</tspan>
+        </text>
+      </g>
+      <g class="axis">
+        <line x1="0" y1="0" x2="0" y2="188.1" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="0" y="205.2" style="font-size: 11px;">
+          <tspan x="0" y="205.2" dy="0em">Human Capital</tspan>
+        </text>
+      </g>
+      <g class="axis">
+        <line x1="0" y1="0" x2="-162.8993784518529" y2="94.05" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="-177.70841285656678" y="102.6" style="font-size: 11px;">
+          <tspan x="-177.70841285656678" y="102.6" dy="0em">Country Profile</tspan>
+        </text>
+      </g>
+      <g class="axis">
+        <line x1="0" y1="0" x2="-162.899378451853" y2="-94.05" class="line" style="stroke: white; stroke-width: 2px;" />
+        <text class="legend" text-anchor="middle" dy="0em" x="-177.7084128565669" y="-102.6" style="font-size: 11px;">
+          <tspan x="-177.7084128565669" y="-102.6" dy="0em">Demand</tspan>
+        </text>
+      </g>
+    </g>
+    <g class="radarWrapper">
+      <path class="radarArea" d="M9.057077897252024e-15,-147.91330698055822C38.34998087371385,-148.575,113.89549779126244,-108.44982711679268,131.6535520043647,-76.01021368949037S138.13506088800318,34.01933097950096,118.38702808734848,68.3507825347904S39.97160582017314,150.29374739265776,9.360350840888842e-15,152.86613S-129.48839597407985,119.16975922929805,-148.09034404713898,85.5S-146.22653876079838,-36.58693546913033,-124.01298715372754,-71.59893151621408S-38.34998087371383,-147.25161465456677,9.057077897252024e-15,-147.91330698055822" style="fill: rgb(204, 51, 63); fill-opacity: 0;" />
+      <path class="radarStroke" d="M9.057077897252024e-15,-147.91330698055822C38.34998087371385,-148.575,113.89549779126244,-108.44982711679268,131.6535520043647,-76.01021368949037S138.13506088800318,34.01933097950096,118.38702808734848,68.3507825347904S39.97160582017314,150.29374739265776,9.360350840888842e-15,152.86613S-129.48839597407985,119.16975922929805,-148.09034404713898,85.5S-146.22653876079838,-36.58693546913033,-124.01298715372754,-71.59893151621408S-38.34998087371383,-147.25161465456677,9.057077897252024e-15,-147.91330698055822" style="stroke-width: 2px; stroke: rgb(204, 51, 63); fill: none;" />
+      <circle class="radarCircle" r="4" cx="9.057077897252024e-15" cy="-147.91330698055822" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="131.6535520043647" cy="-76.01021368949037" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="118.38702808734848" cy="68.3507825347904" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="9.360350840888842e-15" cy="152.86613" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="-148.09034404713898" cy="85.5" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="-124.01298715372754" cy="-71.59893151621408" style="fill: rgb(204, 51, 63); fill-opacity: 0.8;" />
+    </g>
+    <g class="radarWrapper">
+      <path class="radarArea" d="M6.0551816950453575e-15,-98.88862158887298C26.86265346764415,-99.03,78.87314839686104,-73.63302010937227,90.35863140433878,-52.16858016490117S90.12368142716912,19.781739657098964,76.5698867165183,44.20764470760097S30.835166606787222,106.13038850979025,6.776631243041067e-15,110.67078683844552S-115.6890319050698,98.76145811035974,-128.99789066206313,74.47696689863612S-108.07540864593163,-25.220982966585563,-88.72572504662216,-51.225821239711934S-26.862653467644137,-98.74720775009459,6.0551816950453575e-15,-98.88862158887298" style="fill: rgb(237, 201, 81); fill-opacity: 0;" />
+      <path class="radarStroke" d="M6.0551816950453575e-15,-98.88862158887298C26.86265346764415,-99.03,78.87314839686104,-73.63302010937227,90.35863140433878,-52.16858016490117S90.12368142716912,19.781739657098964,76.5698867165183,44.20764470760097S30.835166606787222,106.13038850979025,6.776631243041067e-15,110.67078683844552S-115.6890319050698,98.76145811035974,-128.99789066206313,74.47696689863612S-108.07540864593163,-25.220982966585563,-88.72572504662216,-51.225821239711934S-26.862653467644137,-98.74720775009459,6.0551816950453575e-15,-98.88862158887298" style="stroke-width: 2px; stroke: rgb(237, 201, 81); fill: none;" />
+      <circle class="radarCircle" r="4" cx="6.0551816950453575e-15" cy="-98.88862158887298" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="90.35863140433878" cy="-52.16858016490117" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="76.5698867165183" cy="44.20764470760097" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="6.776631243041067e-15" cy="110.67078683844552" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="-128.99789066206313" cy="74.47696689863612" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+      <circle class="radarCircle" r="4" cx="-88.72572504662216" cy="-51.225821239711934" style="fill: rgb(237, 201, 81); fill-opacity: 0.8;" />
+    </g>
+    <g class="radarCircleWrapper">
+      <circle class="radarInvisibleCircle" r="6" cx="9.057077897252024e-15" cy="-147.91330698055822" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="131.6535520043647" cy="-76.01021368949037" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="118.38702808734848" cy="68.3507825347904" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="9.360350840888842e-15" cy="152.86613" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-148.09034404713898" cy="85.5" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-124.01298715372754" cy="-71.59893151621408" style="fill: none; pointer-events: all;" />
+    </g>
+    <g class="radarCircleWrapper">
+      <circle class="radarInvisibleCircle" r="6" cx="6.0551816950453575e-15" cy="-98.88862158887298" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="90.35863140433878" cy="-52.16858016490117" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="76.5698867165183" cy="44.20764470760097" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="6.776631243041067e-15" cy="110.67078683844552" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-128.99789066206313" cy="74.47696689863612" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-88.72572504662216" cy="-51.225821239711934" style="fill: none; pointer-events: all;" />
+    </g>
+    <g class="radarCircleWrapper">
+      <circle class="radarInvisibleCircle" r="6" cx="8.615940884831856e-15" cy="-140.70899284317093" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="120.04088543324116" cy="-69.30563751864281" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="111.12221919480712" cy="64.15644316507046" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="7.97598970135667e-15" cy="130.25779689147703" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-143.36383283511722" cy="82.77114747941151" style="fill: none; pointer-events: all;" />
+      <circle class="radarInvisibleCircle" r="6" cx="-90.22457321324255" cy="-52.0911816321846" style="fill: none; pointer-events: all;" />
+    </g>
+    <text class="tooltip" style="opacity: 0;"></text>
+  </g>
+</svg>

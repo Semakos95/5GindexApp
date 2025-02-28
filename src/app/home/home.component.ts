@@ -18,7 +18,7 @@ export class HomeComponent {
     this.container.nativeElement.addEventListener('scroll', () => {
       const scrollTop = this.container.nativeElement.scrollTop;
       console.log('scroll',scrollTop)
-      if (scrollTop > 10) {
+      if (scrollTop >= 10) {
         this.scrolledDown = true;
       } else {
         this.scrolledDown = false;

@@ -12,7 +12,7 @@
     <div class="categories-container">
         <div class="category dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
+                All factors
             </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -22,7 +22,7 @@
         </div>
         <div class="report">
             <div class="item">
-                Report
+                Report              
             </div>
         </div>
         <div class="methodology">
@@ -47,10 +47,18 @@
         <div class="list-holder">
             <div class="title">Top-10 countries</div>
             <div class="countries">
-                <div class="country" *ngFor="let country of countries;let i = index">
-                    {{i+1+' '+country}}
+                <div class="country" (click)="openDialog(country)" *ngFor="let country of countries;let i = index">
+                    
+                    <div class="country-name">{{i+1+' '+country}}</div>
+                    <div class="country-stats-container">
+                        <div class="stats">75.00%</div>
+                        <div class="loading-container">
+                            <div class="loading-fill"></div>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="viewAllCountries"></div>
+                <button class="viewAllCountries">View all countries</button>
             </div>
         </div>
         <div class="map-holder">

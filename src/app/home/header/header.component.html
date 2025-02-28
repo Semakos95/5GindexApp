@@ -1,8 +1,15 @@
-<div class="headerContainer">
-    <div class="primary-header" [style.display]="scrolledDown ? 'none' : 'flex'">
+<div class="headerContainer" [style.transform]="scrolledDown ? 'translateY(-65px)' : 'translateY(0)'">
+    <div class="primary-header">
         <div class="logos">
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-twitter"></i>
+            <button (click)="openLinkedIn()">
+                <i class="bi bi-linkedin"></i>
+            </button>
+            <button (click)="openTwitter()">
+                <i class="bi bi-twitter"></i>
+            </button>
+            <button (click)="openFb()">
+                <i class="bi bi-facebook"></i>
+            </button>
         </div>
         <div class="login">
             <i class="bi bi-person-fill"></i>
@@ -11,13 +18,33 @@
     </div>
     <div class="nav-header">
         <div class="logo">
-            <img src="assets/cite-logo.jpg" alt="Logo" />
+            <img src="assets/cite-logo1.jpg" alt="Logo" />
         </div>
         <div class="nav-menu-list">
-            <div class="about">about</div>
-            <div class="products-and-services">Products & Services</div>
-            <div class="news">news</div>
-            <div class="contact">contact</div>
+            <div class="about" (mouseover)="hoveredMenu = 'about'" (mouseout)="hoveredMenu = null">about
+              <div class="dropdown-list" *ngIf="hoveredMenu == 'about'">
+                    <div class="item">about-item-1</div>
+                    <div class="item">about-item-2</div>
+                    <div class="item">about-item-3</div>
+              </div>
+            </div>
+            <div class="products-and-services" (mouseover)="hoveredMenu = 'productsAndServices'" (mouseout)="hoveredMenu = null">Products & Services
+                <div class="dropdown-list" *ngIf="hoveredMenu == 'productsAndServices'">
+                    <div class="item">product-item-1</div>
+                    <div class="item">product-item-2</div>
+                    <div class="item">product-item-3</div>
+              </div>
+            </div>
+            <div class="news" (mouseover)="hoveredMenu = 'news'" (mouseout)="hoveredMenu = null">news
+                <div class="dropdown-list" *ngIf="hoveredMenu == 'news'">
+                    <div class="item">news-item-1</div>
+                    <div class="item">news-item-2</div>
+                    <div class="item">news-item-3</div>
+              </div>
+            </div>
+            <div class="contact">
+                <button (click)="navToCiteContact()">contact</button> 
+            </div>
             <i class="bi bi-search"></i>
         </div>
     </div>

@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    transition: 0.5s;
     .primary-header{
         display: flex;
         height: 64px;
@@ -16,6 +17,12 @@
             gap: 10px;
             font-size: 19px;
             color: white;
+            padding-left: 33px;
+            button{
+                color: white;
+                border: 0px;
+                background: transparent;
+            }
         }
         .login{
             width: 54%;
@@ -52,33 +59,54 @@
             font-size: 16px;
             color: #666666;
             text-transform: uppercase;
+            .item{
+                color:white;
+                padding: 15px;
+                transition: 0.5s;
+            }.item:hover{
+                color:#d5aa6d;
+                background-color: black;
+            }
+            .dropdown-list{
+                position: absolute;
+                background-color: #21215D;
+                width: auto;
+                top: 67px;
+            }
             .about{
                 transition: 0.5s;
                 padding-bottom: 5px;
-                border-bottom: 5px solid transparent;
+                border-bottom: 2px solid transparent;
             }.about:hover{
-                border-bottom: 5px solid #EAB200;
+                border-bottom: 2px solid #EAB200;
             }
             .products-and-services{
                 transition: 0.5s;
                 padding-bottom: 5px;
-                border-bottom: 5px solid transparent;
+                border-bottom: 2px solid transparent;
             }.products-and-services:hover{
-                border-bottom: 5px solid #EAB200;
+                border-bottom: 2px solid #EAB200;
             }
             .news{
                 transition: 0.5s;
                 padding-bottom: 5px;
-                border-bottom: 5px solid transparent;
+                border-bottom: 2px solid transparent;
             }.news:hover{
-                border-bottom: 5px solid #EAB200;
+                border-bottom: 2px solid #EAB200;
             }
             .contact{
                 transition: 0.5s;
                 padding-bottom: 5px;
-                border-bottom: 5px solid transparent;
+                border-bottom: 2px solid transparent;
+                button{
+                    background-color: transparent;
+                    border: 0px;
+                    font-size: 16px;
+                    color: #666666;
+                    text-transform: uppercase;
+                }
             }.contact:hover{
-                border-bottom: 5px solid #EAB200;
+                border-bottom: 2px solid #EAB200;
             }
             .search{
                 transition: 0.5s;

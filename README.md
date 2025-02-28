@@ -1,59 +1,22 @@
-# 5GIndexApp
+# 5G Index App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+5G Index App is an interactive Angular application that visualizes country data. When a user clicks on a country, a modal window opens displaying full country statistics, allowing the user to explore detailed information quickly and easily.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Interactive Map:** Click on any country to trigger the detailed view.
+- **Modal with Country Stats:** A modal displays comprehensive statistics about the selected country.
+- **Built with Angular:** Leverages Angular's component-based architecture for clean, maintainable code.
 
-```bash
-ng serve
-```
+## Installation and Setup
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+To run the application locally, follow these steps:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Install dependecies**  
+   You can install the node modules via the command line:
+   ```bash
+   npm install
+2. **Run Angular Server**
+   You can run the angular server via the command line:
+   ```bash
+   ng serve || npm run start
