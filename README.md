@@ -16,7 +16,7 @@ To run the application locally, follow these steps:
    You can install the node modules via the command line:
    ```bash
    npm install
-2. **Run Angular Server**
-   You can run the angular server via the command line:
+2. **Run Angular Application**
+   You can run the angular application via the command line:
    ```bash
    ng serve || npm run start
